@@ -1,0 +1,126 @@
+name: fim
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  date_format: ^2.0.4
+
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  dio: ^4.0.0
+  pull_to_refresh: ^2.0.0
+  extended_text_field: ^8.0.0
+  scroll_to_index: ^2.0.0
+  cached_network_image: ^3.1.0
+  flutter_screenutil: ^5.0.0+2
+  bubble: ^1.2.1
+  azlistview: ^2.0.0-nullsafety.0
+  # 汉字转拼音
+  lpinyin: ^2.0.0
+  common_utils: ^2.0.0
+  flutter_easyloading: ^3.0.3
+  image_crop: ^0.4.0
+  image_picker: ^0.7.4
+  qr_flutter: ^4.0.0
+  flutter_qr_reader: ^1.0.5
+  permission_handler: ^8.0.0+2
+  octo_image: ^1.0.0+1
+  photo_view: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    #    - assets/images/
+    - assets/images/ic_index_bar_bubble_gray.png
+    - assets/images/ic_login_ic1.webp
+    - assets/images/ic_login_ic2.webp
+    - assets/images/ic_login_ic3.webp
+    - assets/images/ic_login_ic4.webp
+    - assets/images/ic_login_ic5.webp
+    - assets/images/ic_login_ic6.webp
+    - assets/images/ic_register_ic1.webp
+    - assets/images/ic_register_ic2.webp
+    - assets/images/ic_register_ic3.webp
+    - assets/images/ic_backup_ic1.webp
+    - assets/images/ic_backup_ic2.webp
+    - assets/images/ic_back.webp
+    - assets/images/ic_add.webp
+    - assets/images/ic_tab1_nor.webp
+    - assets/images/ic_tab1_sel.webp
+    - assets/images/ic_tab2_nor.webp
+    - assets/images/ic_tab2_sel.webp
+    - assets/images/ic_tab3_nor.webp
+    - assets/images/ic_tab3_sel.webp
+    - assets/images/ic_search.webp
+    - assets/images/ic_new_friend.webp
+    - assets/images/ic_mine_ic1.webp
+    - assets/images/ic_mine_ic2.webp
+    - assets/images/ic_mine_ic3.webp
+    - assets/images/ic_mine_ic4.webp
+    - assets/images/ic_speak.webp
+    - assets/images/ic_add_blue.webp
+    - assets/images/ic_menu_copy.webp
+    - assets/images/ic_menu_del.webp
+    - assets/images/ic_menu_forward.webp
+    - assets/images/ic_menu_revoke.webp
+    - assets/images/ic_camera.webp
+    - assets/images/ic_album.webp
+    - assets/images/ic_voice_blue.webp
+    - assets/images/ic_voice_black.webp
+    - assets/images/ic_voice_ic1.webp
+    - assets/images/ic_more.webp
+    - assets/images/ic_next.webp
+    - assets/images/ic_switch_open.webp
+    - assets/images/ic_switch_close.webp
+    - assets/images/ic_add_friend.webp
+    - assets/images/ic_clear.webp
+    - assets/images/ic_search_result_ic1.webp
+    - assets/images/ic_msg.webp
+    - assets/images/ic_pic_load_error.webp
+    - assets/images/ic_video_play.webp
+    - assets/images/ic_msg_error.webp
+    - assets/images/tool_flashlight_close.png
+    - assets/images/tool_flashlight_open.png
+    - assets/images/tool_img.png
+    - assets/images/tool_qrcode.png
+    - assets/images/ic_radio_nor.webp
+    - assets/images/ic_radio_sel.webp
+    - assets/images/ic_group_chat1.webp
+    - assets/images/ic_group_chat2.webp
+    - assets/images/ic_group_chat3.webp
+    - assets/images/ic_group_chat4.webp
+    - assets/images/ic_group_member_add.webp
+    - assets/images/ic_group_member_sub.webp
+    - assets/images/ic_group_member_more.webp
+    - assets/images/ic_clear_input.webp
+    - assets/images/ic_new_group.webp
+    - assets/images/ic_add_friend1.webp
+    - assets/images/ic_group_list.webp
+    - assets/images/ic_file.webp
+    - assets/images/ic_menu_download.webp
+
